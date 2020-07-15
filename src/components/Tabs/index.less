@@ -1,0 +1,58 @@
+.common-tabs-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  .tab-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #fff;
+    .tab-item-wrap {
+      width: 100%;
+      text-align: center;
+      height: 90px;
+      line-height: 90px;
+      font-size: 28px;
+      color: #333;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      &.active {
+        font-size: 32px;
+        font-weight: bold;
+      }
+
+      .tab-item {
+        position: relative;
+        overflow: hidden;
+        .tab-bottom {
+          width: 100%;
+          height: 6px;
+          background: #101010;
+          border-radius: 1px;
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          transition: all 300ms ease;
+          transform: scaleX(0);
+          margin: 0 auto;
+          &.active {
+            transform: scaleX(1);
+          }
+        }
+      }
+    }
+  }
+  .border-bottom {
+    height: 1px;
+    transform: scaleY(0.7);
+    background-color: #f4f4f4;
+  }
+}
+
+.common-tabs-placeholder {
+  height: 90px;
+}
