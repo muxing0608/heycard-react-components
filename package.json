@@ -21,7 +21,7 @@
   },
   "author": "Crux",
   "license": "MIT",
-  "repository": "https://github.com/CruxCv/heycard-react-components.git",
+  "repository": "git@github.com:muxing0608/heycard-react-components.git",
   "dependencies": {
     "classnames": "^2.2.6"
   },
