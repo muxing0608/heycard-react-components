@@ -21,7 +21,7 @@ npm run storybook
 ## 🎛 发布storybook
 
 ```bash
-npm run storybook
+npm run deploy
 ```
 
 ## ⚒ 发布npm
